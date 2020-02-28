@@ -178,20 +178,22 @@
 	.image
 	{
 		display: inline-block;
+		margin: 5em 5em 5em 5em;
 	}
 	
 		.image img
 		{
 			display: block;
-			width: 80%;
-			margin: 0 0 0 1em;
+			height: 70%;
+			width: 70%;
+			margin: 0 2em 0 0;
 		}
 
 	.image-full
 	{
 		display: block;
 		width: 100%;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 		
 	}
 	
@@ -505,7 +507,8 @@ style="transform: rotate(90deg)"                                                
 			
 			border-radius: 0%;
 			overflow: hidden;
-			transform: rotate(90deg)
+			
+/*			transform: rotate(90deg) */
 		}
 
 		#top p
